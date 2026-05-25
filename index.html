@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urubu do Pix - O Mensageiro das Transferências</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="logo">🦅 Urubu do Pix</div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#meme">Meme</a>
+      <a href="#dicas">Dicas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Bem-vindo ao Reino do Urubu do Pix</h1>
+      <p>O guardião das transferências instantâneas mais rápidas da internet brasileira</p>
+      <button class="btn btn-primary" onclick="chamarUrubu()">🦅 Invocar o Urubu</button>
+    </div>
+    <div class="urubu-animation">
+      <div id="urubu" class="urubu">🦅</div>
+    </div>
+  </section>
+
+  <!-- Sobre Section -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Sobre o Urubu do Pix</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>A Lenda</h3>
+          <p>O Urubu do Pix é a personificação mítica das transferências Pix. Sempre pronto para avisar quando o dinheiro chega, com sua presença majestosa e pontual.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💨</div>
+          <h3>Velocidade Incomparável</h3>
+          <p>Nenhuma transferência é mais rápida que o Urubu do Pix. Com seus voos rasantes, ele nunca falha em entregar a boa notícia.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎯</div>
+          <h3>Precisão Total</h3>
+          <p>Cada notificação do Urubu é precisa. Quando você ouve seu grito característico, saiba que é o seu dinheiro chegando!</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">👑</div>
+          <h3>Rei das Finanças</h3>
+          <p>Adorado por freelancers, vendedores, amigos e qualquer um que depende de transferências rápidas. O Urubu é a verdadeira coroa do Pix.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meme Section -->
+  <section id="meme" class="section section-alt">
+    <div class="container">
+      <h2>O Meme em Ação</h2>
+      <div class="meme-content">
+        <div class="meme-box">
+          <h3>Os Sinais do Urubu</h3>
+          <ul class="signals-list">
+            <li>🦅 Aparição súbita na tela</li>
+            <li>📢 Grito característico: "CAAAAAA"</li>
+            <li>💰 Notificação de Pix recebido</li>
+            <li>🎉 Celebração instantânea</li>
+            <li>✨ Desaparecimento misterioso</li>
+          </ul>
+        </div>
+        <div class="meme-box">
+          <h3>Quando o Urubu Aparece</h3>
+          <p>O Urubu do Pix surge nos momentos mais críticos:</p>
+          <ul class="moments-list">
+            <li>Pagamento de cliente chegando 🎉</li>
+            <li>Mesada/Salário caindo 💸</li>
+            <li>Transferência de amigo que deve 😂</li>
+            <li>Reembolso de compra 🛍️</li>
+            <li>Prêmio inesperado 🍀</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curiosidades Section -->
+  <section id="dicas" class="section">
+    <div class="container">
+      <h2>Curiosidades & Dicas</h2>
+      <div class="curiosities-grid">
+        <div class="curiosity-item">
+          <h3>📊 Estatísticas do Urubu</h3>
+          <p><strong>Velocidade:</strong> 99.9% de precisão nas notificações</p>
+          <p><strong>Alcance:</strong> Cobertura nacional em 24 horas</p>
+          <p><strong>Satisfação:</strong> Meme aprovado por 100% dos brasileiros</p>
+        </div>
+        <div class="curiosity-item">
+          <h3>🎓 História do Pix</h3>
+          <p>Lançado em 2020 pelo Banco Central, o Pix revolucionou as transferências. E o Urubu? Veio trazendo alegria e piadas desde o primeiro dia!</p>
+        </div>
+        <div class="curiosity-item">
+          <h3>💡 Dica Pro</h3>
+          <p>Configure sua notificação de Pix em volume máximo para não perder nenhum aviso do Urubu. A antecipação faz parte do encanto!</p>
+        </div>
+        <div class="curiosity-item">
+          <h3>🌍 Presença Global</h3>
+          <p>Embora nascido no Brasil, o Urubu do Pix virou lenda internacional entre brasileiros espalhados pelo mundo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Section -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Interaja com o Urubu</h2>
+      <div class="interactive-area">
+        <input type="text" id="nomeInput" placeholder="Digite seu nome..." class="input-field">
+        <button class="btn btn-primary" onclick="saudacaoUrubu()">Receber Saudação do Urubu</button>
+        <div id="mensagem" class="mensagem"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contato" class="footer">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>Quer contar uma história sobre o Urubu do Pix?</p>
+      <div class="social-links">
+        <a href="#">Twitter 🐦</a>
+        <a href="#">Instagram 📸</a>
+        <a href="#">TikTok 🎵</a>
+      </div>
+      <p class="footer-text">© 2026 Urubu do Pix™ - A Lenda Continua 🦅</p>
+    </div>
+  </footer>
+
+  <script>
+    // Função para invocar o Urubu
+    function chamarUrubu() {
+      const urubu = document.getElementById('urubu');
+      urubu.style.animation = 'none';
+      setTimeout(() => {
+        urubu.style.animation = 'voar 2s ease-in-out';
+      }, 10);
+      
+      // Som simulado (emoji)
+      alert('🦅 CAAAAAA! Urubu do Pix em ação! 💰');
+    }
+
+    // Função para saudação personalizada
+    function saudacaoUrubu() {
+      const nome = document.getElementById('nomeInput').value;
+      const mensagem = document.getElementById('mensagem');
+      
+      if (!nome) {
+        mensagem.textContent = '🦅 Você precisa dizer seu nome para o Urubu!';
+        return;
+      }
+      
+      const saudacoes = [
+        `🦅 CAAAAAA, ${nome}! Seu Pix chegou com honra!`,
+        `💰 ${nome}, o Urubu voa em sua direção com boas notícias!`,
+        `⚡ ${nome}, prepare-se! O Urubu do Pix te escolheu!`,
+        `🎉 ${nome}, você é abençoado pelo Urubu do Pix hoje!`,
+        `✨ ${nome}, que privilégio receber a visita do grande Urubu!`
+      ];
+      
+      const saudacao = saudacoes[Math.floor(Math.random() * saudacoes.length)];
+      mensagem.textContent = saudacao;
+      mensagem.style.animation = 'fadeIn 0.5s ease-in';
+    }
+
+    // Animação de entrada
+    window.addEventListener('load', () => {
+      document.body.style.opacity = '1';
+    });
+  </script>
+</body>
+</html>
